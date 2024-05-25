@@ -1,0 +1,40 @@
+{
+  "name": "e0-iic2173-2024-1-aaromero1",
+  "version": "1.0.0",
+  "description": "***Fecha de entrega:** 31/03/2024 - 3 Semanas*",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "lint_fix": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0 --fix",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "jsonwebtoken": "^9.0.2",
+    "jwks-rsa": "^3.1.0",
+    "koa-body": "^6.0.1",
+    "koa-bodyparser": "^4.4.1",
+    "koa-jwt": "^4.0.4",
+    "koa-mount": "^4.0.0",
+    "koa-router": "^12.0.1",
+    "koa2-cors": "^2.0.6",
+    "moment-timezone": "^0.5.45",
+    "mongoose": "^8.2.3",
+    "nodemailer": "^6.9.13",
+    "transbank-sdk": "^5.0.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "koa": "^2.15.3",
+    "supertest": "^6.3.4"
+  }
+}

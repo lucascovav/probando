@@ -1,0 +1,21 @@
+
+.transaction-container {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .transaction-detail {
+    margin-bottom: 10px;
+    font-size: 35px;
+  }
+  
+  .transaction-detail p {
+    margin: 0;
+  }
+  
